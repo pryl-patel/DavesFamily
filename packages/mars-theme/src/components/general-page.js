@@ -26,7 +26,7 @@ import CalculationSection from "./sections/timer-calculation-section";
  *
  * @returns The {@link Post} element rendered.
  */
-const Home = ({ state, actions, libraries }) => {
+const GeneralPage = ({ state, actions, libraries }) => {
   // Get information about the current URL.
   const data = state.source.get(state.router.link);
   // Get the data of the post.
@@ -90,7 +90,7 @@ const Home = ({ state, actions, libraries }) => {
   ) : null;
 };
 
-export default connect(Home);
+export default connect(GeneralPage);
 
 const Container = styled.div`
   width: 100%;

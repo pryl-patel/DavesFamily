@@ -27,7 +27,7 @@ const Welcome = ({ state, libraries, contentBlock }) => {
       <div className="container ">
         <div className="row">				
           <div className="col-sm-6 text-center">
-            <h2 className="" >{contentBlock.heading}</h2>
+            <h2 className="" >Test{contentBlock.heading}</h2>
             <div className="description">{contentBlock.description}</div>
             <div className="subheading">{contentBlock.sub_heading}</div>
             {contentBlock.image && 
